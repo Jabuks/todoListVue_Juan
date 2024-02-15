@@ -51,11 +51,12 @@
 
 <style scoped>
 
-/* Styling untuk komponen TodoBoard */
+
 .header{
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
 .todo-board {
   width: 100%;
   max-width: 600px;
@@ -68,6 +69,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .add-todo-container {
   width: 100%;
   display: flex;

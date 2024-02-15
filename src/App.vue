@@ -26,7 +26,7 @@ export default {
       const newTodo = {
         id: Date.now(),
         title: todoData.title,
-        creationDate: new Date().toISOString().substring(0, 10), // Set to current date
+        creationDate: new Date().toISOString().substring(0, 10),
         dueDate: todoData.dueDate,
         complete: false
       };
